@@ -9,3 +9,8 @@ output "image_id" {
   value       = docker_image.nginx.id
 }
 
+//For the heck of it
+output "version" {
+  description = "docker version"
+  value       = docker.version
+}
